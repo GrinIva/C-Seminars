@@ -6,8 +6,10 @@
 
 // bool d = true;
 
-int number = 5;
-Console.WriteLine("my number" + number);
+int number1 = 5;
+int number2 = 7;
+Console.WriteLine(" my number " + number1 + " and " + number2 + " text  2 ");
 
+Console.WriteLine($" my number {number1} and {number2} text 2");
 
 Console.WriteLine("Hello, World!");
