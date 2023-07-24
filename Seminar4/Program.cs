@@ -56,3 +56,8 @@ void ShowArray(int[] array)
 
     Consol.WriteLine();
 }
+Consol.Write("Input a Length: ");
+int Length = Convert.ToInt32(Consol.ReadLine ())
+{
+    
+}
