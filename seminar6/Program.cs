@@ -1,5 +1,5 @@
 ﻿//напишите программу которая перевернет массив
-/*
+
 int[] CreateRandomArray(int size, int minValue, int maxValue)
 {
     int[] array = new int[size];
@@ -20,14 +20,21 @@ void ShowArray(int[] array)
 
 void RevArray(int[]array)
 {
-    for(int i=0;i<array.Length/2;i++)
+    for(int i=0;i<array.Length/2;i++) 
     {
         int temp = array[i];
         array[i] = array[array.Length-1-i];
         array[array.Length-1-i] = temp;
 
     }
-    
+ //   for(int i=0, j=array.Length-1-i;i<j;i++,j--)
+ //   {
+ //       int temp = array[i];
+ //       array[i]=array[j];
+ //       array[j]=temp;
+ //   }
+
+
 }
 
 
@@ -44,6 +51,5 @@ ShowArray(myarray);
 Console.WriteLine(" ");
 RevArray(myarray);
 ShowArray(myarray);
-*/
 
 //
